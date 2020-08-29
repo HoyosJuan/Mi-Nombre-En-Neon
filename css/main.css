@@ -37,45 +37,20 @@ p{
 .texto-encabezado .titulo,
 .texto-encabezado .titulo-naranja-neon{
   font-size: 85px;
-  animation: naranja-neon 2s infinite alternate;
+  animation: rosa-neon 2s infinite alternate;
   text-transform: uppercase;
 }
 .texto-encabezado .icono{
   font-size: 70px;
   margin-bottom: 0;
-  animation: azul-neon 2s infinite alternate;
+  animation: celeste-neon 2s infinite alternate;
 }
 .texto-encabezado .descripcion{
   margin-top: 40px;
   font-size: 20px;
 }
-.descripcion::first-line{
-  font-size: 32px;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-.btn-link{
-  display: inline-block;
-  padding: 15px 30px;
-  border: 6px dotted #d7935b;
-  border-radius: 60px;
-  color: #fff;
-  text-decoration: none;
-  font-size: 18px;
-  text-transform: uppercase;
-  text-shadow: 0px -1px 4px #fff, 2px 2px 10px #ff0, 2px -2px 20px #ff8000;
-  transition: all .5s ease;
-}
-.btn-link:hover{
-  text-shadow: none;
-  border: 6px dotted rgba(255,255,255, .5);
-}
-@keyframes azul-neon{
+@keyframes celeste-neon{
   0%, 10%, 15%, 20%, 30%, 35%, 40%, 50%, 55%, 60%, 70%, 75%, 80%, 85%, 90%, 100%{
-    /* text-shadow:  9px 9px 18px #3485ff, 
-                  3px 3px 5px #00246c, 
-                  -3px -3px 5px #00246c, 
-                  -9px -9px 27px #3485ff; */
     text-shadow:  9px 9px 18px #69EDFF, 
                   3px 3px 5px #2BB9CC, 
                   -3px -3px 5px #2BB9CC, 
@@ -83,18 +58,17 @@ p{
   }
   10%, 15%, 60%{
     text-shadow: none;
+    /* color: #69EDFF; */
   }
 }
-@keyframes naranja-neon{
+@keyframes rosa-neon{
   0%, 10%, 15%, 20%, 30%, 35%, 40%, 50%, 55%, 60%, 70%, 75%, 80%, 85%, 90%, 100%{
-    /* text-shadow:  0px -1px 4px #fff, 
-                  0px -2px 10px #ff0, 
-                  0px -10px 20px #ff8000;  */
     text-shadow:  0px -1px 4px #fff, 
                   0px -2px 10px #FF69AF, 
                   0px -10px 20px #FF3694; 
   }
   10%, 15%, 60%{
     text-shadow: none;
+    /* color: #FF3694; */
   }
 }
